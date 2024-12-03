@@ -38,7 +38,7 @@ public class AtmosphereSpringIntegrationTest {
 
     /**
      * This test shows that a bean of BroadcasterFactory is not initialized till invoke of
-     * {@link  org.atmosphere.spring.bean.AtmosphereSpringServlet#init(ServletConfig)}
+     * {@link  AtmosphereSpringServlet#init(ServletConfig)}
      * So, the BroadcasterFactory was initialized and configured once during instantiation, and it will not be reconfigured
      */
     @Test
